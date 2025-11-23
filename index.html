@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>PlanetaryLedger.com — « Grand livre planétaire » pour risques & comptes</title>
+  <title>PlanetaryLedger.com — Planetary Ledger / « Grand livre planétaire »</title>
 
-  <meta name="description" content="PlanetaryLedger.com — actif de nommage stratégique pour le « grand livre planétaire » : un registre global des impacts, engagements et flux qui affectent la solvabilité de la planète, à la croisée des limites planétaires, de la comptabilité étendue et de la finance.">
+  <meta name="description" content="PlanetaryLedger.com — strategic naming asset for the Planetary Ledger: a global register of impacts, risks, commitments and flows that shape planetary solvency, at the intersection of planetary boundaries, extended accounting and finance.">
 
   <!-- Canonical & hreflang -->
   <link rel="canonical" href="https://www.planetaryledger.com/" />
@@ -123,9 +123,10 @@
     }
     .hero h1{
       margin:0 0 8px;
-      font-size:44px;
+      font-size:40px;
       letter-spacing:.4px
     }
+    .hero h1 span{color:var(--accent)}
     .cta{
       display:flex;
       gap:12px;
@@ -166,6 +167,7 @@
       font-size:13px;
       color:#c1ccec
     }
+    .chips-wrap{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0}
     .list{
       display:grid;
       gap:10px;
@@ -191,9 +193,13 @@
 <body>
   <div class="wrap">
     <div class="topbar">
-      <div class="badge">
+      <div class="badge" data-fr>
         <span class="badge-dot"></span>
         <span>Actif numérique disponible à l’acquisition</span>
+      </div>
+      <div class="badge" data-en hidden>
+        <span class="badge-dot"></span>
+        <span>Strategic digital asset available for acquisition</span>
       </div>
       <div class="lang">
         <button id="btn-fr" aria-pressed="false">FR</button>
@@ -202,24 +208,30 @@
     </div>
 
     <!-- ============== HERO FR ============== -->
-    <section class="card hero" data-fr hidden>
-      <h1>PlanetaryLedger.com</h1>
+    <section class="card hero" data-fr>
+      <h1>PlanetaryLedger.com<br><span>Le « grand livre planétaire »</span></h1>
       <img class="logo" src="/logo-planetaryledger.png" alt="PlanetaryLedger.com" loading="eager">
       <p class="muted">
         Nom de domaine <b>.com exact-match</b> pour le concept de
         <b>« grand livre planétaire »</b> : un registre global des impacts, risques,
         engagements et flux qui affectent la <b>solvabilité de la planète</b>
         (climat, nature, eau, ressources, stabilité sociale),
-        à la croisée de la <b>comptabilité étendue</b> et de la finance.
+        à la croisée de la <b>comptabilité étendue</b>, des limites planétaires et de la finance.
       </p>
       <p class="muted">
-        Conçu comme <b>bannière neutre</b> pour Boards, CFO, CRO, Chief Sustainability Officers,
+        Conçu comme <b>bannière neutre et institutionnelle</b> pour Boards, CFO, CRO, Chief Sustainability Officers,
         banques centrales, superviseurs, réassureurs, grandes institutions financières,
-        organismes internationaux et standard-setters (ISSB/IFRS, TNFD…).
+        organismes internationaux et normalisateurs (ISSB/IFRS, TNFD, etc.).
       </p>
+      <div class="chips-wrap">
+        <span class="chip">« Grand livre planétaire »</span>
+        <span class="chip">Comptabilité financière &amp; planétaire</span>
+        <span class="chip">Boards, banques centrales, standard-setters</span>
+        <span class="chip">Registres, index, dashboards &amp; APIs</span>
+      </div>
       <div class="cta">
         <a class="btn primary"
-           href="mailto:contact@planetaryledger.com?subject=PlanetaryLedger.com%20-%20NDA%20%2F%20Proposition&body=Bonjour%2C%0D%0A%0D%0AJe%20souhaite%20obtenir%20votre%20NDA%20et%2Fou%20proposer%20une%20offre%20pour%20PlanetaryLedger.com.%0D%0AEntreprise%20%3A%20%0D%0ANom%20%2F%20Fonc%CC%A7ion%20%3A%20%0D%0AUsage%20pre%CC%81vu%20%3A%20%0D%0ABudget%20indicatif%20%3A%20%0D%0A%0D%0ACordialement%2C">
+           href="mailto:contact@planetaryledger.com?subject=PlanetaryLedger.com%20-%20NDA%20%2F%20Proposition&body=Bonjour%2C%0D%0A%0D%0AJe%20souhaite%20obtenir%20votre%20NDA%20et%2Fou%20proposer%20une%20offre%20pour%20PlanetaryLedger.com.%0D%0AEntreprise%20%3A%20%0D%0ANom%20%2F%20Fonction%20%3A%20%0D%0AUsage%20pr%C3%A9vu%20%3A%20%0D%0ABudget%20indicatif%20%3A%20%0D%0A%0D%0ACordialement%2C">
           Proposer une offre / Demander un NDA
         </a>
         <a class="btn" href="#value-fr">Pourquoi ce nom ?</a>
@@ -231,15 +243,78 @@
         </a>
       </div>
       <p class="muted" style="margin-top:8px">
-        <b>Nota :</b> PlanetaryLedger.com est un <b>actif de langage</b> et de positionnement.
+        <b>Nota :</b> PlanetaryLedger.com est un <b>actif de langage et de positionnement</b>.
         Il ne fournit ni service de notation, ni garantie de conformité, ni mandat d’une institution
-        publique. Toute méthodologie ou donnée utilisée reste sous la responsabilité de l’acquéreur.
+        publique. Toute méthodologie, donnée ou opinion publiée sous ce domaine reste sous la seule
+        responsabilité de l’acquéreur, qui doit respecter les réglementations applicables.
       </p>
     </section>
 
+    <!-- ============== VALUE FR ============== -->
+    <section id="value-fr" class="card" style="margin-top:16px" data-fr>
+      <div class="grid">
+        <div class="col-6">
+          <h3>Pourquoi PlanetaryLedger.com a de la valeur</h3>
+          <div class="list">
+            <div class="chip">Nom de catégorie pour le « grand livre planétaire »</div>
+            <div class="chip">Interface entre <b>comptabilité financière</b> et <b>comptabilité planétaire</b></div>
+            <div class="chip">Lisible au niveau Board / banque centrale / organisation internationale</div>
+            <div class="chip">Bannière neutre pour registres, index, dashboards et APIs de données</div>
+            <div class="chip">.com global exact-match — actif défensif si le concept se généralise</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>Exemples de cas d’usage</h3>
+          <div class="list">
+            <div class="chip">Planetary Ledger pour la finance (portefeuilles, bilans, stress-tests)</div>
+            <div class="chip">Planetary Ledger pour les États (NDC, biodiversité, eau, justice sociale)</div>
+            <div class="chip">Observatoire / portail académique indépendant</div>
+            <div class="chip">Hub entre actuaires, normalisateurs, superviseurs et société civile</div>
+          </div>
+        </div>
+      </div>
+      <p class="muted">
+        Ce site ne vend <b>ni produits financiers, ni opinions de crédit, ni services de rating</b> :
+        uniquement le nom de domaine <b>PlanetaryLedger.com</b>, en tant qu’actif numérique descriptif.
+        L’acquéreur reste responsable de ses usages, contenus et obligations réglementaires.
+      </p>
+    </section>
+
+    <!-- ============== ACQUISITION FR ============== -->
+    <section class="card" style="margin-top:16px" data-fr>
+      <h3>Acquisition (process sécurisé)</h3>
+      <p class="muted">
+        Process type : NDA &rarr; échanges stratégiques &rarr; offre formelle &rarr; escrow &rarr; transfert du domaine.
+        L’actif cédé est exclusivement le nom de domaine <b>PlanetaryLedger.com</b>, sauf accord spécifique sur un bundle plus large.
+      </p>
+      <a class="btn primary"
+         href="mailto:contact@planetaryledger.com?subject=PlanetaryLedger.com%20-%20NDA%20%2F%20Proposition">
+        Contact direct : contact@planetaryledger.com
+      </a>
+    </section>
+
+    <!-- ============== DOCS FR ============== -->
+    <section class="card" style="margin-top:16px" data-fr>
+      <h3>Documents / Briefs</h3>
+      <p class="muted">
+        Brief d’acquisition détaillé PlanetaryLedger.com (2025-11) disponible en français
+        pour les équipes Board, Finance, Risques, Sustainability, Audit &amp; Juridique.
+      </p>
+      <div class="cta">
+        <a class="btn" href="/Planetaryledger%20brief%20acquisition-202511.pdf"
+           target="_blank" rel="noopener" type="application/pdf">
+          👁️ Ouvrir le Brief (FR)
+        </a>
+        <a class="btn primary" href="/Planetaryledger%20brief%20acquisition-202511.pdf"
+           download="Acquisition-Brief-PlanetaryLedger-FR-202511.pdf" type="application/pdf">
+          📥 Télécharger (FR, PDF)
+        </a>
+      </div>
+    </section>
+
     <!-- ============== HERO EN ============== -->
-    <section class="card hero" data-en>
-      <h1>PlanetaryLedger.com</h1>
+    <section class="card hero" data-en hidden>
+      <h1>PlanetaryLedger.com<br><span>The Planetary Ledger layer</span></h1>
       <img class="logo" src="/logo-planetaryledger.png" alt="PlanetaryLedger.com" loading="eager">
       <p class="muted">
         <b>Exact-match .com domain</b> for the idea of a
@@ -250,8 +325,14 @@
       <p class="muted">
         Designed as a <b>neutral, institutional banner</b> for boards, CFOs, CROs, CSOs,
         central banks, supervisors, global financial institutions, international organisations
-        and standard setters working on extended accounting & planetary solvency.
+        and standard setters working on extended accounting &amp; planetary solvency.
       </p>
+      <div class="chips-wrap">
+        <span class="chip">Planetary Ledger concept</span>
+        <span class="chip">Financial &amp; planetary accounting</span>
+        <span class="chip">Boards, centrales banks, standard-setters</span>
+        <span class="chip">Registries, dashboards &amp; APIs</span>
+      </div>
       <div class="cta">
         <a class="btn primary"
            href="mailto:contact@planetaryledger.com?subject=PlanetaryLedger.com%20-%20NDA%20%2F%20Offer&body=Hello%2C%0D%0A%0D%0AI%27d%20like%20to%20request%20your%20NDA%20and%2For%20submit%20an%20offer%20for%20PlanetaryLedger.com.%0D%0ACompany%3A%20%0D%0AName%20%2F%20Role%3A%20%0D%0AIntended%20use%3A%20%0D%0ABudget%20range%3A%20%0D%0ABest%2C">
@@ -266,77 +347,15 @@
         </a>
       </div>
       <p class="muted" style="margin-top:8px">
-        <b>Note:</b> PlanetaryLedger.com is a <b>language & naming asset</b>.
-        It does not provide ratings, regulatory guarantees, or any official mandate.
-        Any framework, index or dataset published under this domain remains under the sole
-        responsibility of its operator.
+        <b>Note:</b> PlanetaryLedger.com is a <b>language &amp; naming asset</b>.
+        It does not provide ratings, regulatory guarantees or any official mandate.
+        Any framework, index or dataset operated under this domain remains under the
+        sole responsibility of the buyer, who must comply with applicable regulation.
       </p>
-    </section>
-
-    <!-- ============== VALUE FR ============== -->
-    <section id="value-fr" class="card" style="margin-top:16px" data-fr hidden>
-      <div class="grid">
-        <div class="col-6">
-          <h3>Pourquoi PlanetaryLedger.com a de la valeur</h3>
-          <div class="list">
-            <div class="chip">Nom de catégorie pour le « grand livre planétaire »</div>
-            <div class="chip">Interface entre <b>comptabilité financière</b> et <b>comptabilité planétaire</b></div>
-            <div class="chip">Lisible au niveau Board / banque centrale / organisme international</div>
-            <div class="chip">Bannière neutre pour registres, index, dashboards et API de données</div>
-            <div class="chip">.com global exact-match — actif défensif si le concept se généralise</div>
-          </div>
-        </div>
-        <div class="col-6">
-          <h3>Exemples de cas d’usage</h3>
-          <div class="list">
-            <div class="chip">Planetary Ledger pour la finance (portefeuilles, bilans, stress-tests)</div>
-            <div class="chip">Planetary Ledger pour les États (NDC, biodiversité, eau, justice sociale)</div>
-            <div class="chip">Observatoire / portail académique sous bannière forte mais indépendante</div>
-            <div class="chip">Hub entre actuaires, normalisateurs, superviseurs et société civile</div>
-          </div>
-        </div>
-      </div>
-      <p class="muted">
-        Ce site ne vend <b>ni produits financiers, ni opinions de crédit, ni services de rating</b> :
-        uniquement le nom de domaine <b>PlanetaryLedger.com</b>, en tant qu’actif numérique descriptif.
-        L’acquéreur reste responsable de ses usages, contenus et obligations réglementaires. 
-      </p>
-    </section>
-
-    <!-- ============== ACQUISITION FR ============== -->
-    <section class="card" style="margin-top:16px" data-fr hidden>
-      <h3>Acquisition (process sécurisé)</h3>
-      <p class="muted">
-        Process type : NDA &rarr; échanges stratégiques &rarr; offre formelle &rarr; escrow &rarr; transfert du domaine.
-        L’actif cédé est exclusivement le nom de domaine PlanetaryLedger.com, sauf accord spécifique sur un bundle plus large.
-      </p>
-      <a class="btn primary"
-         href="mailto:contact@planetaryledger.com?subject=PlanetaryLedger.com%20-%20NDA%20%2F%20Proposition">
-        Contact direct : contact@planetaryledger.com
-      </a>
-    </section>
-
-    <!-- ============== DOCS FR ============== -->
-    <section class="card" style="margin-top:16px" data-fr hidden>
-      <h3>Documents / Briefs</h3>
-      <p class="muted">
-        Brief d’acquisition détaillé disponible en français pour les équipes Board, Finance, Risques,
-        Sustainability, Audit & Juridique.
-      </p>
-      <div class="cta">
-        <a class="btn" href="/Planetaryledger%20brief%20acquisition-202511.pdf"
-           target="_blank" rel="noopener" type="application/pdf">
-          Ouvrir le Brief (FR)
-        </a>
-        <a class="btn primary" href="/Planetaryledger%20brief%20acquisition-202511.pdf"
-           download="Acquisition-Brief-PlanetaryLedger-FR-202511.pdf" type="application/pdf">
-          Télécharger (FR, PDF)
-        </a>
-      </div>
     </section>
 
     <!-- ============== VALUE EN ============== -->
-    <section id="value-en" class="card" style="margin-top:16px" data-en>
+    <section id="value-en" class="card" style="margin-top:16px" data-en hidden>
       <div class="grid">
         <div class="col-6">
           <h3>Why PlanetaryLedger.com is valuable</h3>
@@ -344,14 +363,14 @@
             <div class="chip">Category-defining name for the Planetary Ledger layer</div>
             <div class="chip">Connects financial accounting with planetary accounting</div>
             <div class="chip">Board-level banner for registries, dashboards and APIs</div>
-            <div class="chip">Neutral, global .com — usable by a single institution or coalition</div>
+            <div class="chip">Neutral, global .com usable by a single institution or coalition</div>
             <div class="chip">Defensive position as “book of record” for planetary solvency</div>
           </div>
         </div>
         <div class="col-6">
           <h3>Example use cases</h3>
           <div class="list">
-            <div class="chip">Planetary Ledger for Finance (portfolios, balance sheets, stress tests)</div>
+            <div class="chip">Planetary Ledger for finance (portfolios, balance sheets, stress tests)</div>
             <div class="chip">National Planetary Ledger (NDCs, biodiversity, water, social risks)</div>
             <div class="chip">Public / academic observatory under a strong but independent banner</div>
             <div class="chip">Hub linking scientists, actuaries, supervisors and standard setters</div>
@@ -366,11 +385,11 @@
     </section>
 
     <!-- ============== ACQUISITION EN ============== -->
-    <section class="card" style="margin-top:16px" data-en>
+    <section class="card" style="margin-top:16px" data-en hidden>
       <h3>Acquisition (secure process)</h3>
       <p class="muted">
         Typical flow: NDA &rarr; strategic discussions &rarr; formal offer &rarr; escrow &rarr; domain transfer.
-        Only the PlanetaryLedger.com domain name is transferred, unless otherwise agreed in a broader bundle.
+        Only the <b>PlanetaryLedger.com</b> domain name is transferred, unless otherwise agreed in a broader bundle.
       </p>
       <a class="btn primary"
          href="mailto:contact@planetaryledger.com?subject=PlanetaryLedger.com%20-%20NDA%20%2F%20Offer">
@@ -379,20 +398,20 @@
     </section>
 
     <!-- ============== DOCS EN ============== -->
-    <section class="card" style="margin-top:16px" data-en>
+    <section class="card" style="margin-top:16px" data-en hidden>
       <h3>Documents / Briefs</h3>
       <p class="muted">
-        Detailed acquisition brief available in English for Board, Finance, Risk,
-        Sustainability, Audit & Legal teams.
+        Detailed PlanetaryLedger.com acquisition brief (2025-11) available in English
+        for Board, Finance, Risk, Sustainability, Audit &amp; Legal teams.
       </p>
       <div class="cta">
         <a class="btn" href="/Planetaryledger%20brief%20acquisition-EN-202511.pdf"
            target="_blank" rel="noopener" type="application/pdf">
-          Open Brief (EN)
+          👁️ Open Brief (EN)
         </a>
         <a class="btn primary" href="/Planetaryledger%20brief%20acquisition-EN-202511.pdf"
            download="Acquisition-Brief-PlanetaryLedger-EN-202511.pdf" type="application/pdf">
-          Download (EN, PDF)
+          📥 Download (EN, PDF)
         </a>
       </div>
     </section>
@@ -400,8 +419,8 @@
     <p class="foot muted">
       © PlanetaryLedger.com — actif numérique descriptif « Planetary Ledger ». Aucune affiliation
       avec des agences de notation, régulateurs ou organisations publiques. Usage descriptif
-      uniquement. Pas de conseil juridique, financier ou réglementaire. — Contact :
-      <a href="mailto:contact@planetaryledger.com">contact@planetaryledger.com</a>
+      uniquement. Pas de conseil juridique, financier, scientifique ou réglementaire.
+      — Contact : <a href="mailto:contact@planetaryledger.com">contact@planetaryledger.com</a>
     </p>
   </div>
 
@@ -409,20 +428,23 @@
     const frBtn = document.getElementById('btn-fr');
     const enBtn = document.getElementById('btn-en');
 
-    const show = (lang) => {
+    function show(lang){
       document.querySelectorAll('[data-fr]').forEach(n => n.hidden = (lang !== 'fr'));
       document.querySelectorAll('[data-en]').forEach(n => n.hidden = (lang !== 'en'));
 
       frBtn.setAttribute('aria-pressed', String(lang === 'fr'));
       enBtn.setAttribute('aria-pressed', String(lang === 'en'));
 
-      document.documentElement.lang = (lang === 'fr') ? 'fr' : 'en';
-    };
+      frBtn.classList.toggle('active', lang === 'fr');
+      enBtn.classList.toggle('active', lang === 'en');
+
+      document.documentElement.lang = lang;
+    }
 
     frBtn.addEventListener('click', () => show('fr'));
     enBtn.addEventListener('click', () => show('en'));
 
-    // Détection simple : FR si navigateur en français, sinon EN
+    // FR par défaut si navigateur en français, sinon EN
     const navLang = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
     const initialLang = navLang === 'fr' ? 'fr' : 'en';
     show(initialLang);
